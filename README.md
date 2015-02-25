@@ -70,4 +70,35 @@ start: function( event, ui ) {}
 stop: function( event, ui ) {}
 });
 
+# ui Droppable function:
+Controls which draggable elements are accepted by the droppable.
+
+1. accept => $( ".selector" ).droppable({
+  accept: ".special"
+});
+
+2. activeClass =>  $( ".selector" ).droppable({
+  activeClass: "ui-state-highlight"
+});
+
+3. addClasses => $( ".selector" ).droppable({
+  addClasses: false
+});
+
+4. hoverClass => $( ".selector" ).droppable({
+  hoverClass: "drop-hover"
+});
+
+5. droppable => $( ".selector" ).droppable( "destroy" );
+
+6. droppable => $( ".selector" ).droppable( "enable" );
+
+
+7. drop( event, ui ) => $( ".selector" ).droppable({
+  drop: function( event, ui ) {}
+});
+
+8. create( event, ui ) => $( ".selector" ).droppable({
+  create: function( event, ui ) {}
+});
 
