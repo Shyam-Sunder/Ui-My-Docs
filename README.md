@@ -108,6 +108,9 @@ Controls which draggable elements are accepted by the droppable.
 
 # Resizable :
 
+//<div id="resizable" class="ui-widget-content">
+ui-widget-content class add in resizable id.
+
 1. resizable =>  $( "#resizable" ).resizable();
 
 2. alsoResize => $( ".selector" ).resizable({
@@ -201,3 +204,29 @@ Controls which draggable elements are accepted by the droppable.
 26. stop( event, ui ) => $( ".selector" ).resizable({
   stop: function( event, ui ) {}
 });
+
+# ui Accordion :
+
+1. accordion =>  $( "#accordion" ).accordion();
+
+2. collapsible => $( "#accordion" ).accordion({
+  collapsible: true
+});
+
+3. heightStyle=>  $( "#accordion" ).accordion({
+  heightStyle: "fill"
+});
+
+4. refresh => $( "#accordion" ).accordion( "refresh" );
+
+5.
+
+6.
+
+7.
+
+8.
+
+9.
+
+10.
