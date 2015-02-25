@@ -213,12 +213,14 @@ class="ui-widget-content" => class add in resizable id.
 });
 
 3. heightStyle=>  $( "#accordion" ).accordion({
-  heightStyle: "fill"
+  heightStyle: "fill"/"content"
 });
 
 4. refresh => $( "#accordion" ).accordion( "refresh" );
 
-5.
+5. event =>  $( "#accordion" ).accordion({
+  event: "click hoverintent"
+ });
 
 6.
 
