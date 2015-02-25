@@ -1,10 +1,5 @@
-1
-2
-3
-	
+# ui Draggable function:
 
-$( ".selector" ).draggable({
+appendTo => $( ".selector" ).draggable({
 appendTo: "body"
 });
-
-Get or se
