@@ -106,3 +106,23 @@ Controls which draggable elements are accepted by the droppable.
   create: function( event, ui ) {}
 });
 
+# Resizable :
+
+1. resizable =>  $( "#resizable" ).resizable();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
