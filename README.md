@@ -198,3 +198,4 @@ Controls which draggable elements are accepted by the droppable.
   stop: function( event, ui ) {}
 });
 
+
