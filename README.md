@@ -1,1 +1,4 @@
-# Ui-My-Docs
+->appendTo => $( ".selector" ).draggable({
+appendTo: "body"
+});
+
