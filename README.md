@@ -110,19 +110,91 @@ Controls which draggable elements are accepted by the droppable.
 
 1. resizable =>  $( "#resizable" ).resizable();
 
+2. alsoResize => $( ".selector" ).resizable({
+  alsoResize: "#mirror"
+});
 
+3. animate => $( ".selector" ).resizable({
+  animate: true
+});
 
+4. animateDuration=>  $( ".selector" ).resizable({
+  animateDuration: "fast"
+});
 
+5. animateEasing => $( ".selector" ).resizable({
+  animateEasing: "easeOutBounce"
+});
 
+6. aspectRatio => $( ".selector" ).resizable({
+  aspectRatio: true
+});
 
+7. autoHide =>  $( ".selector" ).resizable({
+  autoHide: true
+});
 
+8. cancel=> $( ".selector" ).resizable({
+  cancel: ".cancel"
+});
 
+9. containment => $( ".selector" ).resizable({
+  containment: "parent"
+});
 
+10. delay => $( ".selector" ).resizable({
+  delay: 150
+});
 
+11. disabled => $( ".selector" ).resizable({
+  disabled: true
+});
 
+12. distance => $( ".selector" ).resizable({
+  distance: 30
+});
 
+13. ghost => $( ".selector" ).resizable({
+  ghost: true
+});
 
+14. grid => $( ".selector" ).resizable({
+  grid: [ 20, 10 ]
+});
 
+15. handles => $( ".selector" ).resizable({
+  handles: "n, e, s, w"
+});
 
+16. helper => $( ".selector" ).resizable({
+  helper: "resizable-helper"
+});
 
+17.minimam and maximam => $( ".selector" ).resizable({
+  maxHeight: 300,maxWidth: 300,minHeight: 150,minWidth: 150
+});
+
+18. destroy => $( ".selector" ).resizable( "destroy" );
+
+19. disable => $( ".selector" ).resizable( "disable" );
+
+20. enable => $( ".selector" ).resizable( "enable" );
+
+21. instance => $( ".selector" ).resizable( "instance" );
+
+22. create( event, ui ) => $( ".selector" ).resizable({
+  create: function( event, ui ) {}
+});
+
+23. resize( event, ui ) => $( ".selector" ).resizable({
+  resize: function( event, ui ) {}
+});
+
+24. start( event, ui ) => $( ".selector" ).resizable({
+  start: function( event, ui ) {}
+});
+
+25. stop( event, ui ) => $( ".selector" ).resizable({
+  stop: function( event, ui ) {}
+});
 
