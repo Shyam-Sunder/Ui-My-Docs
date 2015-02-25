@@ -9,7 +9,7 @@ axis: "x"
 });
 
 3. cursor => $( ".selector" ).draggable({
-cursor: "crosshair"
+cursor: "crosshair" / "move", cursorAt: { top: 56, left: 56 }
 });
 
 4. cursorAt => $( ".selector" ).draggable({
@@ -68,6 +68,10 @@ start: function( event, ui ) {}
 
 19. stop( event, ui ) => $( ".selector" ).draggable({
 stop: function( event, ui ) {}
+});
+
+20. containment => $( ".selector" ).draggable({
+  containment: "parent"/"special Id"
 });
 
 # ui Droppable function:
