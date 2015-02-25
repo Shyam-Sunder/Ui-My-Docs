@@ -170,32 +170,34 @@ Controls which draggable elements are accepted by the droppable.
   helper: "resizable-helper"
 });
 
-17.minimam and maximam => $( ".selector" ).resizable({
-  maxHeight: 300,maxWidth: 300,minHeight: 150,minWidth: 150
+17. minimam and maximam => $( ".selector" ).resizable({
+  maxHeight: 300,maxWidth: 300
 });
 
-18. destroy => $( ".selector" ).resizable( "destroy" );
+18. minimam and maximam => $( ".selector" ).resizable({
+  minHeight: 150,minWidth: 150
+});
 
-19. disable => $( ".selector" ).resizable( "disable" );
+19. destroy => $( ".selector" ).resizable( "destroy" );
 
-20. enable => $( ".selector" ).resizable( "enable" );
+20. disable => $( ".selector" ).resizable( "disable" );
 
-21. instance => $( ".selector" ).resizable( "instance" );
+21. enable => $( ".selector" ).resizable( "enable" );
 
-22. create( event, ui ) => $( ".selector" ).resizable({
+22. instance => $( ".selector" ).resizable( "instance" );
+
+23. create( event, ui ) => $( ".selector" ).resizable({
   create: function( event, ui ) {}
 });
 
-23. resize( event, ui ) => $( ".selector" ).resizable({
+24. resize( event, ui ) => $( ".selector" ).resizable({
   resize: function( event, ui ) {}
 });
 
-24. start( event, ui ) => $( ".selector" ).resizable({
+25. start( event, ui ) => $( ".selector" ).resizable({
   start: function( event, ui ) {}
 });
 
-25. stop( event, ui ) => $( ".selector" ).resizable({
+26. stop( event, ui ) => $( ".selector" ).resizable({
   stop: function( event, ui ) {}
 });
-
-
