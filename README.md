@@ -36,4 +36,38 @@ opacity: 0.35
 refreshPositions: true
 });
 
-10. 
+10. revert =>  $( ".selector" ).draggable({
+revert: true
+});
+
+11. revertDuration => $( ".selector" ).draggable({
+revertDuration: 200
+});
+
+12. zIndex => $( ".selector" ).draggable({
+zIndex: 100
+});
+
+13. destroy => $( ".selector" ).draggable( "destroy" );
+
+14. disable => $( ".selector" ).draggable( "disable" );
+
+15. enable => $( ".selector" ).draggable( "enable" );
+
+16. create( event, ui ) => $( ".selector" ).draggable({
+create: function( event, ui ) {}
+});
+
+17. drag( event, ui ) => $( ".selector" ).draggable({
+drag: function( event, ui ) {}
+});
+
+18. start( event, ui ) => $( ".selector" ).draggable({
+start: function( event, ui ) {}
+});
+
+19. stop( event, ui ) => $( ".selector" ).draggable({
+stop: function( event, ui ) {}
+});
+
+
