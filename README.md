@@ -108,8 +108,7 @@ Controls which draggable elements are accepted by the droppable.
 
 # Resizable :
 
-//<div id="resizable" class="ui-widget-content">
-ui-widget-content class add in resizable id.
+class="ui-widget-content" => class add in resizable id.
 
 1. resizable =>  $( "#resizable" ).resizable();
 
