@@ -1,4 +1,4 @@
-->appendTo => $( ".selector" ).draggable({
+#->appendTo => $( ".selector" ).draggable({
 appendTo: "body"
 });
 
