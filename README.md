@@ -222,12 +222,8 @@ class="ui-widget-content" => class add in resizable id.
   event: "click hoverintent"
  });
 
-6.
+# ui Autocomplete :
 
-7.
+1. autocomplete => $( "#show" ).autocomplete({ source: availableTags });
 
-8.
-
-9.
-
-10.
+2.  
